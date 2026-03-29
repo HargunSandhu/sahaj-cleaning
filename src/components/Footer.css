@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  border-top: 1px solid #eee;
+  padding-top: 2rem;
+}
+.footerCol h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.footerCol a,
+.footerCol p {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 0.3rem;
+  display: block;
+} /* ================= RESPONSIVE ================= */ /* Tablet */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+} /* Mobile */
+@media (max-width: 480px) {
+  .quoteBtn {
+    width: 100%;
+  }
+}

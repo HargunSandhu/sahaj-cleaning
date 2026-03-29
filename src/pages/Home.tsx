@@ -3,8 +3,8 @@ import "./styles/Home.css";
 import floorSurfacing from "../assets/3mfloor-surfacing.png";
 import floorPolishing from "../assets/floor-polishing.png";
 import officeCleaning from "../assets/office-cleaning.png";
-import logo from "../assets/logo.png";
 import { ShieldCheck, Hammer, Droplets, Sparkles } from "lucide-react";
+import Footer from "../components/Footer";
 
 const sections = [
   {
@@ -153,28 +153,7 @@ const Home = () => {
           </button>
         </form>
 
-        <div className="footer">
-          <div className="footerLogo">
-            <img src={logo} alt="logo" />
-          </div>
-
-          <div className="footerCol">
-            <h4>Quick Links</h4>
-            <a href="/">Home</a>
-            <a href="/about">About Us</a>
-            <a href="/services">Services</a>
-            <a href="/contact">Contact</a>
-          </div>
-
-          <div className="footerCol">
-            <h4>Contact</h4>
-            <a href="mailto:sahajgroupservices@gmail.com">
-              sahajgroupservices@gmail.com
-            </a>
-            <a href="tel:0466973399">0466973399</a>
-            <p>NSW, WA, ACT, VIC</p>
-          </div>
-        </div>
+        <Footer />
       </div>
     </div>
   );

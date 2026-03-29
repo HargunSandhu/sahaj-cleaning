@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./styles/AboutUs.css";
+import Footer from "../components/Footer";
 
 const AboutUs = () => {
   const navigate = useNavigate();
@@ -41,6 +42,9 @@ const AboutUs = () => {
             Contact Us
           </button>
         </div>
+      </div>
+      <div style={{ width: "80%", margin: "auto" }}>
+        <Footer />
       </div>
     </div>
   );
