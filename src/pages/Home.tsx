@@ -3,7 +3,7 @@ import "./styles/Home.css";
 import floorSurfacing from "../assets/3mfloor-surfacing.png";
 import floorPolishing from "../assets/floor-polishing.png";
 import officeCleaning from "../assets/office-cleaning.png";
-import logo from "../assets/logo.jpeg";
+import logo from "../assets/logo.png";
 import { ShieldCheck, Hammer, Droplets, Sparkles } from "lucide-react";
 
 const sections = [
